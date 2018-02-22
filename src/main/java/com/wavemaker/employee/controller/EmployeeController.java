@@ -1,10 +1,7 @@
-package com.jwt.controller;
+package com.wavemaker.employee.controller;
 
-import java.io.IOException;
-import java.util.List;
-
-import javax.servlet.http.HttpServletRequest;
-
+import com.wavemaker.employee.model.Employee;
+import com.wavemaker.employee.service.EmployeeService;
 import org.jboss.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,8 +9,10 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
-import com.jwt.model.Employee;
-import com.jwt.service.EmployeeService;
+
+import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
+import java.util.List;
 
 @Controller
 public class EmployeeController {

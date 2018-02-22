@@ -1,4 +1,4 @@
-package com.jwt.model;
+package com.wavemaker.employee.model;
 
 import java.io.Serializable;
 

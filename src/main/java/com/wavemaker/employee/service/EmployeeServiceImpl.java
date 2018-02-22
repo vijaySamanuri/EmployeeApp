@@ -1,4 +1,4 @@
-package com.jwt.service;
+package com.wavemaker.employee.service;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jwt.dao.EmployeeDAO;
-import com.jwt.model.Employee;
+import com.wavemaker.employee.dao.EmployeeDAO;
+import com.wavemaker.employee.model.Employee;
 
 @Service
 @Transactional

@@ -1,4 +1,4 @@
-package com.jwt.dao;
+package com.wavemaker.employee.dao;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.jwt.model.Employee;
+import com.wavemaker.employee.model.Employee;
 
 @Repository
 public class EmployeeDAOImpl implements EmployeeDAO {
