@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>New/Edit Contact</title>
 </head>
-<body style="background-color:red;">
+<body style="background-color:blue;">
     <div align="center">
         <h1>New/Edit Employee</h1>
         <form:form action="saveEmployee" method="post" modelAttribute="employee">
