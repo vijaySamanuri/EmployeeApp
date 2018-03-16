@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Employee Management Screen</title>
 </head>
-<body style="background-color:lightyellow;">
+<body style="background-color:green;">
 	<div align="center">
 		<h1>Employee List</h1>
 		
